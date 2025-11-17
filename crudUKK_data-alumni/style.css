@@ -1,7 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #f4f4f4;
+    background-image: url('gambar2.jpg');
+    background-size: cover;
+    
+    
 }
 
 table {
@@ -10,21 +13,53 @@ table {
     margin-top: 20px;
 }
 
+h2 {
+    color: rgb(255, 255, 255);
+}
+
 table,
 th,
 td {
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
+    backdrop-filter: blur(10px);
 }
 
-th,
+th {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 10px;
+    text-align: left;
+}
 td {
     padding: 10px;
     text-align: left;
+    color: rgb(25, 24, 24);
+    background-color: #ccc;
 }
 
 a {
     text-decoration: none;
-    color: blue;
+    color: rgb(10, 10, 10);
+    color: rgb(0, 0, 0);
+}
+
+.tambah-container {
+    background: transparent;
+    padding: 20px;
+    width: 350px;
+    margin-left: 35%;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+
+    h2 {
+        text-align: center;
+    }
+
+    form {
+        justify-items: center;
+    }
+     
 }
 
 form input,
@@ -34,4 +69,8 @@ form button {
     margin-bottom: 10px;
     padding: 8px;
     width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: rgb(255, 255, 255) ;
+    background: transparent;
 }
