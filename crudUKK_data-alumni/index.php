@@ -9,7 +9,7 @@
 
 <body>
     <h2>Data Alumni Sekolah</h2>
-    <a href="tambah.php">+ Tambah Data</a>
+    <a class="apa" href="tambah.php">+ Tambah Data</a>
     <table>
         <tr>
             <th>Nama</th>
