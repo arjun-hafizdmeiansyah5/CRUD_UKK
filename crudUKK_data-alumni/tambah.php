@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <div class="tambah-container">
     <h2>Tambah Data Alumni</h2>
     <form method="POST">
         <input type="text" name="nama" placeholder="Nama" required>
@@ -20,6 +21,7 @@
         <input type="text" name="jurusan" placeholder="Jurusan" required>
         <button type="submit" name="submit">Simpan</button>
     </form>
+    </div>
 
     <?php
     if (isset($_POST['submit'])) {
